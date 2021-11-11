@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# don't allow errors to fail silently
+set -e
+
+export PREFIX=$(PWD)
+
+wget https://github.com/LLNL/Caliper/archive/refs/tags/v2.5.0.tar.gz
+tar xzf v2.5.0.tar.gz
+
+cd Caliper-2.5.0
+mkdir build
+mkdir install
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=${PREFIX}/Caliper-2.5.0/install ..
+make
+make install
