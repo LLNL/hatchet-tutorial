@@ -3,7 +3,7 @@
 # don't allow errors to fail silently
 set -e
 
-export PREFIX=$(PWD)
+PREFIX="$PWD"
 
 wget https://github.com/LLNL/Caliper/archive/refs/tags/v2.5.0.tar.gz
 tar xzf v2.5.0.tar.gz
