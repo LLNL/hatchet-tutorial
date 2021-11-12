@@ -8,7 +8,7 @@ This repository contains materials for Hatchet's hands-on tutorial. You can do
 all of the exercises on your own laptop using BinderHub.
 
 
-### Running the notebooks
+### Running the notebooks online
 
 We use [BinderHub](https://mybinder.org) to create a shareable and interactive
 environment of the notebooks within a live JupyterHub instance.
