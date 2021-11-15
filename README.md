@@ -14,7 +14,7 @@ We use [BinderHub](https://mybinder.org) to create a shareable and interactive
 environment of the notebooks within a live JupyterHub instance.
 
 You can access the interactive environment at this
-[link](https://mybinder.org/v2/gh/hatchet/hatchet-tutorial)
+[link](https://mybinder.org/v2/gh/hatchet/hatchet-tutorial/main)
 or by clicking the badge at the top of this file.
 
 
@@ -34,7 +34,7 @@ To setup your local conda environment with Hatchet and its dependencies:
 
     $ module load python
     $ conda create --name hatchet-sc21-env python=3.8
-    $ conda install ipykernel multiproces
+    $ conda install ipykernel multiprocess
     $ source activate hatchet-sc21-env
     $ pip install hatchet==1.3.1a0
 
