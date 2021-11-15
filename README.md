@@ -33,8 +33,7 @@ To build and install Caliper:
 To setup your local conda environment with Hatchet and its dependencies:
 
     $ module load python
-    $ conda create --name hatchet-sc21-env python=3.8
-    $ conda install ipykernel multiprocess
+    $ conda create --name hatchet-sc21-env python=3.8 ipykernel multiprocess
     $ source activate hatchet-sc21-env
     $ pip install hatchet==1.3.1a0
 
