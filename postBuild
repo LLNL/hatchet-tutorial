@@ -5,13 +5,13 @@ set -e
 
 PREFIX="$PWD"
 
-wget https://github.com/LLNL/Caliper/archive/refs/tags/v2.5.0.tar.gz
-tar xzf v2.5.0.tar.gz
+wget https://github.com/LLNL/Caliper/archive/refs/tags/v2.7.0.tar.gz
+tar xzf v2.7.0.tar.gz
 
-cd Caliper-2.5.0
+cd Caliper-2.7.0
 mkdir build
 mkdir install
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=${PREFIX}/Caliper-2.5.0/install ..
+cmake -DCMAKE_INSTALL_PREFIX=${PREFIX}/Caliper-2.7.0/install ..
 make
 make install
