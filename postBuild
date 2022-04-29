@@ -15,3 +15,9 @@ cd build
 cmake -DCMAKE_INSTALL_PREFIX=${PREFIX}/Caliper-2.7.0/install ..
 make
 make install
+cd ../..
+
+wget https://github.com/LLNL/spotbe/archive/refs/heads/master.zip
+unzip master.zip
+mv spotbe-master/spotdb .
+rm -rf spotbe-master
