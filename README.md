@@ -18,33 +18,6 @@ You can access the interactive environment at this
 or by clicking the badge at the top of this file.
 
 
-### Running the notebooks at NERSC
-
-To run the notebooks on Cori, you will need to install Caliper, create a conda
-environment with Hatchet and its dependencies, and install the environment so
-that it can be accessed in JupyterHub.
-
-To build and install Caliper:
-
-    $ git clone https://github.com/llnl/hatchet-tutorial
-    $ cd hatchet-tutorial
-    $ ./build_and_install_caliper
-
-To setup your local conda environment with Hatchet and its dependencies:
-
-    $ module load python
-    $ conda create --name hatchet-sc21-env python=3.8 ipykernel multiprocess
-    $ source activate hatchet-sc21-env
-    $ pip install llnl-hatchet==2022.1.0
-
-Lastly, we install our conda environment so we can use it in JupyterHub:
-
-    $ python -m ipykernel install --user --name hatchet-sc21-env-jupyter
-
-To access the notebooks, navigate to https://jupyter.nersc.gov, and switch to
-kernel "hatchet-sc21-env-jupyter" in the kernel list.
-
-
 ### License
 
 This repository is distributed under the terms of the MIT license.
