@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+title: Hatchet Tutorial
+message: "If you use this software, please cite it as below."
+type: software
+date-released: "2021-11-11"
+url: https://github.com/LLNL/hatchet-tutorial
