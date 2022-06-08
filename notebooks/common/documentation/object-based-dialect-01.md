@@ -1,4 +1,4 @@
-The **Object-based Dialect** is a formal language that is built around Python’s built-in objects. Queries are composed using Python’s list, tuple, and dict built-in data structures within **Object-based Dialect** of Hatchet query language. Hatchet supports 5 different categories for the query language, as shown in Fig. 1.  
+The **Object-based Dialect** is a formal language that is built around Python’s built-in objects. Queries are composed using Python’s list, tuple, and dict built-in data structures within **Object-based Dialect** of Hatchet query language. Hatchet supports five different categories for the query language, as shown in Fig. 1.  
 
 |Category ID|Category Description|
 |:---------:|:-------------------|
