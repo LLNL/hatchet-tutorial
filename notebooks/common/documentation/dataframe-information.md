@@ -1,2 +1,2 @@
 ### Displaying a DataFrame
-An additional detail perspective can be obtained by viewing the underlying data using a **DataFrame**. Hatchet **DataFrame** holds all the numerical and categorical data associated with each node. 
+An additional detail perspective can be obtained by viewing the underlying data using a **DataFrame**. A Hatchet **DataFrame** holds all the numerical and categorical data associated with each node. 

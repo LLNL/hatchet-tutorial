@@ -1,14 +1,17 @@
-The **String-based Dialect** is a formal language that can be used to create queries using a syntax derived from [Cypher](https://dl.acm.org/doi/10.1145/3183713.3190657). Queries generated using the **String-based Dialect** contain two main syntactic pieces: a *MATCH* statement and a *WHERE* statement. The *MATCH* statement starts with the *MATCH* keyword and defines the quantifiers and variable names used to refer to query nodes in the predicates. The *WHERE* statement starts with the *WHERE* keyword and defines one or more predicates. Hatchet supports five different categories for the query language, as shown in Fig. 1.  
+The **String-based Dialect** is a formal language that can be used to create queries using a syntax derived from [Cypher](https://dl.acm.org/doi/10.1145/3183713.3190657). Queries generated using the **String-based Dialect** contain two main syntactic pieces: a *MATCH* statement and a *WHERE* statement. The *MATCH* statement starts with the *MATCH* keyword and defines the quantifiers and variable names used to refer to query nodes in the predicates. The *WHERE* statement starts with the *WHERE* keyword and defines one or more predicates. Hatchet supports eight different categories for the query language, as shown in Fig. 1.  
 
 |Category ID|Category Description|
 |:---------:|:-------------------|
 |1          |Quantifier Capabilities|
-|2          |String Equivalence and Regex Matching|
-|3          |String Containment (contains, starts with, ends with)|
-|4          |Basic Numeric Comparison (==, >, >=, etc.)|
-|5          |Comparison with Special Values (NaN, Inf, None)|
+|2          |String Equivalence and Regex Matching Predicates|
+|3          |String Containment Predicates (contains, starts with, ends with)|
+|4          |Basic Numeric Comparison Predicates (==, >, >=, etc.)|
+|5          |Special Value Identification Predicates (NaN, Inf, None)|
+|6          |Predicate Combination through Conjunction (AND)|
+|7          |Predicate Combination through Disjunction and Complement (OR, NOT)|
+|8          |Predicate Combination through Other Operations (e.g., XOR)|
 
-**Figure 1**: A table of the Hatchet Query Language capabilities, distinguished into categories and their corresponding cateogry ID.
+**Figure 1**: A table of the Hatchet Query Language capabilities, distinguished into categories and their corresponding category ID.
 
 Hatchet offers multiple interfaces to define queries with different trade-offs to verbosity and expressiveness. An entire catalog of queries, use cases, categories and capabilities can be found [here](https://docs.google.com/spreadsheets/d/1fKNlHmDJdDbnE4jyMcaFqdnw6ZSaexgm33rOcVAj0do/edit#gid=0).
 

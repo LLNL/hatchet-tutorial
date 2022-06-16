@@ -1,3 +1,3 @@
 **Example 2:**
 
-For the second example, we repeat the second example in the previous section but replace the final query node to 'match one or more nodes'. The first quantifier (`"."`) constrains the filter to single node with the predicate that the metric `name`, `starts with lulesh`. The second quantifier (`"."`) all nodes matching any node, before only `matching one or more nodes` that satisfy the predicate that the metric `name`, `starts with Calc`.  
+For the second example, we repeat the second example in the previous section but replace the final query node to 'match one or more nodes'. The first quantifier (`"."`) constrains the filter to a single node with the predicate that the metric `name`, `starts with lulesh`. The second quantifier (`"."`) all nodes matching any node, before only `matching one or more nodes` that satisfy the predicate that the metric `name`, `starts with Calc`.  

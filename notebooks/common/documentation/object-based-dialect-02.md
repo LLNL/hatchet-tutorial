@@ -1,12 +1,15 @@
-The **Object-based Dialect** is a formal language that is built around Python’s built-in objects. Queries are composed using Python’s list, tuple, and dict built-in data structures within **Object-based Dialect** of Hatchet query language. Hatchet supports five different categories for the query language, as shown in Fig. 1.  
+The **Object-based Dialect** is a formal language that is built around Python’s built-in objects. Queries are composed using Python’s list, tuple, and dict built-in data structures within **Object-based Dialect** of Hatchet query language. Hatchet supports eight different categories for the query language, as shown in Fig. 1.  
 
 |Category ID|Category Description|
 |:---------:|:-------------------|
 |1          |Quantifier Capabilities|
-|2          |String Equivalence and Regex Matching|
-|3          |String Containment (contains, starts with, ends with)|
-|4          |Basic Numeric Comparison (==, >, >=, etc.)|
-|5          |Comparison with Special Values (NaN, Inf, None)|
+|2          |String Equivalence and Regex Matching Predicates|
+|3          |String Containment Predicates (contains, starts with, ends with)|
+|4          |Basic Numeric Comparison Predicates (==, >, >=, etc.)|
+|5          |Special Value Identification Predicates (NaN, Inf, None)|
+|6          |Predicate Combination through Conjunction (AND)|
+|7          |Predicate Combination through Disjunction and Complement (OR, NOT)|
+|8          |Predicate Combination through Other Operations (e.g., XOR)|
 
 **Figure 1**: A table of the Hatchet Query Language capabilities, distinguished into categories and their corresponding category ID.
 
@@ -20,8 +23,7 @@ Hatchet query language consumes a GraphFrame and a sequence of queries. Each que
 
 ***
 
-## Category 2: Condition Capabilities for String Metrics
-
+## Category 2: String Equivalence and Regex Matching
 
 Category 2 expands on query conditions by exploring string equivalence and regex matching. The Object-based Dialect of the Hatchet Query Language allows us to:
 
