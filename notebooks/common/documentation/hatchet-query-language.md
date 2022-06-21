@@ -17,7 +17,7 @@ Hatchet offers multiple interfaces to define queries with different trade-offs t
 
 Hatchet query language consumes a GraphFrame and a sequence of queries. Each query can comprise a **predicate** and a **quantifier**. Hatchet query language finds all **matching paths** from a provided GraphFrame. For example, in Fig.2, for the query (any with A or B), the output would comprise of 2 paths, [1, 2, 4] and [1, 3, 4].
 
-![Graph frames and queries](../common/images/hatchet_query_graphframe.png)
+![Graph frames and queries](../common/images/hatchet_query_graphframe.PNG)
 
 **Figure 2**: A diagram to provide an overview of queries and an example of how queries filter GraphFrames.
 
