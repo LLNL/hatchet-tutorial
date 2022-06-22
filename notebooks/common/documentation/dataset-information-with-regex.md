@@ -4,7 +4,8 @@ Hatchet queries are only defined on Hatchet GraphFrames.
 Obtaining a hatchet GraphFrame is straight forward:
 
 1. Import hatchet
-2. Use the appropriate reader for the profile/trace at hand
+2. Import [python regular expression operations](https://docs.python.org/3/library/re.html) 
+3. Use the appropriate reader for the profile/trace at hand
 
 We first load a [Caliper](https://github.com/LLNL/Caliper) profile in JSON format, where Caliper is a performance profiling library developed by the Lawrence Livermore National Lab (LLNL).
 
