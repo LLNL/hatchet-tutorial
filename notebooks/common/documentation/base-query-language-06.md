@@ -2,5 +2,5 @@ The **Query Language** finds all paths in a call graph that match properties des
 
 ## Category 6: Predicate Combination through Conjunction (AND)
 
-Category 6 expands on combining query predicates by combining them with the `AND` logical operator. The Object-based Dialect of the Hatchet Query Language allows us to use intersection (AND) in query node predicates.
+Category 6 expands on combining query predicates by combining them with the `AND` logical operator. The base Query Language of the Hatchet Query Language allows us to use intersection (AND) in query node predicates.
 

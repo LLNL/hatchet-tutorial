@@ -2,4 +2,4 @@ The **String-based Dialect** is a formal language that can be used to create que
 
 ## Category 6: Predicate Combination through Conjunction (AND)
 
-Category 6 expands on combining query predicates by combining them with the `AND` logical operator. The Object-based Dialect of the Hatchet Query Language allows us to use intersection (AND) in query node predicates.
+Category 6 expands on combining query predicates with the `AND` logical operator. The String-based Dialect of the Hatchet Query Language allows us to use intersection (AND) in query node predicates.
