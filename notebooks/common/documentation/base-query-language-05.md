@@ -2,7 +2,7 @@ The **Query Language** finds all paths in a call graph that match properties des
 
 ## Category 5: Special Value Identification Predicates (NaN, Inf, None)
 
-Category 5 expands on using query node predicates to indentify and filter GraphFrame nodes with special values such as NaN, Inf, or None.
+Category 5 expands on using query node predicates to identify and filter GraphFrame nodes with special values such as NaN, Inf, or None.
 
 The Hatchet base Query Language allows us to check if:
 
