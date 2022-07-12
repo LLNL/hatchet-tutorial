@@ -2,7 +2,7 @@ The **Query Language** finds all paths in a call graph that match properties des
 
 ## Category 1: Quantifier Capabilities
 
-A valid hatchet query requires a **quantifier**. The accepted values for query node quantifiers in the **Object-based Dialect** are:
+A valid hatchet query requires a **quantifier**. The accepted values for query node quantifiers in the Hatchet **base Query Language** are:
 
 1. `"."`: Match a single node
 2. `"*"`: Match 0 or more nodes

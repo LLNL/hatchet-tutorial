@@ -1,4 +1,4 @@
-### Query type 4: Match exact number of nodes
+### Use Case 4: Match exact number of nodes
 
 
 This query type filters a GraphFrame with the object syntax to find all query paths with an exact number of nodes, provided as an integer, that meets a query predicate.

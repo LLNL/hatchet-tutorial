@@ -2,7 +2,7 @@ The **String-based Dialect** is a formal language that can be used to create que
 
 ## Category 1: Quantifier Capabilities
 
-A valid hatchet query requires a **quantifier**. The accepted values for query node quantifiers in the **Object-based Dialect** are:
+A valid hatchet query requires a **quantifier**. The accepted values for query node quantifiers in the **String-based Dialect** are:
 
 1. `"."`: Match a single node
 2. `"*"`: Match 0 or more nodes

@@ -1,4 +1,4 @@
-### Query type 1: Check if numeric metric is NaN in query node predicates
+### Use Case 1: Check if numeric metric is NaN in query node predicates
 
 This query type allows a user to identify GraphFrame nodes with a NaN value. When a user subtracts or divides two GraphFrames that don't contain the same nodes, the nodes that are not present in both GraphFrames are changed to hold **NaN** values. An example of this can be seen on Fig. 1 below.
 

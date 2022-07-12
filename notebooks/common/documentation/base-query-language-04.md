@@ -2,7 +2,7 @@ The **Query Language** finds all paths in a call graph that match properties des
 
 ## Category 4: Basic Numeric Comparison Predicates (==, >, >=, <, <=)
 
-Category 4 expands on query conditions by exploring predicates that compare numerical metrics of performance data. An example of a numerical metric is "time". The Object-based Dialect of the Hatchet Query Language allows us to:
+Category 4 expands on query conditions by exploring predicates that compare numerical metrics of performance data. An example of a numerical metric is "time". The Hatchet **base Query Language** allows us to:
 
 1. Evaluate numeric metric comparison (e.g., greater than) in query node predicates
 2. Check for numeric metric equivalence in query node predicates
