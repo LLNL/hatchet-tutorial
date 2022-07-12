@@ -2,7 +2,7 @@ The **Query Language** finds all paths in a call graph that match properties des
 
 ## Category 2: String Equivalence and Regex Matching
 
-Category 2 expands on query conditions by exploring string equivalence and regex matching. The Object-based Dialect of the Hatchet Query Language allows us to:
+Category 2 expands on query conditions by exploring string equivalence and regex matching. The Hatchet **base Query Language** allows us to:
 
 1. Check for string metric equivalence in query node predicates
 2. Check for regex match on string metric in query node predicates

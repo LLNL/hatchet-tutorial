@@ -1,4 +1,4 @@
-### Query type 2: Use negation (NOT) in query node predicates
+### Use Case 2: Use negation (NOT) in query node predicates
 
 This query type allows a user to search for nodes that match the complement of a query node predicates using the NOT logical operator.
 

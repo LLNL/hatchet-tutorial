@@ -1,4 +1,4 @@
-### Query type 3: Match one or more nodes
+### Use Case 3: Match one or more nodes
 
 This query type filters a GraphFrame with the object syntax to find all query paths with one or more nodes that meet a query predicate. 
 

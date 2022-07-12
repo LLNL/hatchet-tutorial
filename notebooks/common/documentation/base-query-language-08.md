@@ -2,5 +2,5 @@ The **Query Language** finds all paths in a call graph that match properties des
 
 ## Category 8: Predicate Combination through Other Operations (e.g., XOR)
 
-Category 8 expands on combining query predicates through exclusive disjunction or exclusive OR with the `XOR` logical operator.The Hatchet base Query Language allows us to use more complex logic than AND, OR, and NOT in query node predicates. A complex logic we explore in this notebook is `XOR`.
+Category 8 expands on combining query predicates through exclusive disjunction or exclusive OR with the `XOR` logical operator. The Hatchet base Query Language allows us to use more complex logic than AND, OR, and NOT in query node predicates. A complex logic we explore in this notebook is `XOR`.
 

@@ -1,4 +1,4 @@
-### Query type 2: Match zero or more nodes
+### Use Case 2: Match zero or more nodes
 
 In many cases, a user may not know how many nodes to match. For this reason, hatchet provides the `"*"` and `"+"` literals as a quantifier `match zero or more nodes` and `match one or more nodes`, respectively.
 
